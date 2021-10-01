@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- * the function main execute a text when we execute the file
+ * main - execute a text when we execute char
+ * Return:the function all return 0
  */
 
-int main()
+int main(void)
 {
-	char hola = "Programming is like building a multilingual puzzle\n";
+	char hola[] = "\"Programming is like building a multilingual puzzle\n";
+
 	puts(hola);
-	return 0;
+	return (0);
 }

@@ -8,12 +8,11 @@
 
 int main(void)
 {
-char numbers[] = "0123456789";
-int a = 0;
+int a = 48;
 
-while (a < 10)
+while (a < 58)
 {
-putchar(numbers[a]);
+putchar(a);
 a++;
 }
 putchar('\n');

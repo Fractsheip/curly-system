@@ -4,10 +4,7 @@
 
 /**
 * main - execute a text when we execute the file
-* g: is a variable calculated the last number
-* if: print the last digit and if this is > 5 print the text
-* else if1: print first condition is when g is = 0
-* else if2: print second condition is when g < 6
+*
 * Return:the function all return 0
 */
 

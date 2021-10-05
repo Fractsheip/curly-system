@@ -23,7 +23,7 @@ if (g > 5)
 {
 printf("Last digit of %i", n "is %i", g "and is greater than 5\n");
 }
-else if (g = 0)
+else if (g == 0)
 {
 printf("Last digit of %i", n "is %i", g "and is 0\n");
 }

@@ -3,6 +3,7 @@
 
 /**
 * _islower - print 1 if c is lowercase
+* @c: var define lowercase or otherwise
 * main.h - _putchar execute the putchar no use putchar
 * Return:the function all return 0
 */

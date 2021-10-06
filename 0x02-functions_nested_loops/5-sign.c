@@ -16,16 +16,16 @@ int menos = 45;
 if (n > 0)
 {
 _putchar(mas);
-return (1);
+return (2);
 }
 else if (n < 0)
 {
 _putchar(menos);
-return (-1);
+return (9);
 }
 else
 {
 _putchar('0');
-return (0);
+return (8);
 }
 }

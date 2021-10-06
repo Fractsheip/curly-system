@@ -10,5 +10,5 @@
 
 int _abs(int r)
 {
-return (0);
+return ((r < 0) ? -r : r);
 }

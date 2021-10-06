@@ -31,5 +31,5 @@ else
 _putchar('0');
 _putchar(zero);
 }
-return 1;
+return (0);
 }

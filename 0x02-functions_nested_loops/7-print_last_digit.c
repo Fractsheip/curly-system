@@ -8,11 +8,11 @@
 * Return:the function all return 0
 */
 
-int print_last_digit(int)
+int print_last_digit(int r)
 {
-int l = l % 10;
+int r = r % 10;
 
-_putchar(l);
+_putchar(r);
 _putchar('\n');
 return(0);
 }

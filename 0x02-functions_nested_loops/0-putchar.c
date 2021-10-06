@@ -1,20 +1,21 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
 * main - execute a text when we execute the file
-* _putchar - execute the putchar no use putchar
-* Return:the function all return 0
+* main.h - _putchar execute the putchar no use putchar
+* Return:the function all return 
 */
 
 int main(void)
 {
-char c[] = "_putchar";
+char c[8] = "_putchar";
 int i = 0;
 
-while (c[i] != 9)
+while (c[i] != '\0')
 {
 _putchar(c[i++]);
 }
 _putchar('\n');
+return (0);
 }

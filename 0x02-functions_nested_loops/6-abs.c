@@ -8,7 +8,7 @@
 * Return:the function all return 0
 */
 
-int _abs(int)
+int _abs(int r)
 {
 return (0);
 }

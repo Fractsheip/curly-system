@@ -12,24 +12,20 @@ int print_sign(int n)
 {
 int mas = 43;
 int menos = 45;
-int one = 49;
-int zone = 47;
-int zero = 48;
 
 if (n > 0)
 {
 _putchar(mas);
-_putchar(one);
+return (1);
 }
 else if (n < 0)
 {
 _putchar(menos);
-_putchar(zone);
+return (-1);
 }
 else
 {
 _putchar('0');
-_putchar(zero);
-}
 return (0);
+}
 }

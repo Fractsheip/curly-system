@@ -4,7 +4,7 @@
 /**
 * main - execute a text when we execute the file
 * main.h - _putchar execute the putchar no use putchar
-* Return:the function all return 
+* Return:the function all return 0
 */
 
 int main(void)

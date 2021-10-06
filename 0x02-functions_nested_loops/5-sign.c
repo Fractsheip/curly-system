@@ -10,19 +10,31 @@
 
 int print_sign(int n)
 {
+int coma = 44;
+int espacio = 32;
+int mas = 43;
+int menos = 45;
+
 if (n > 0)
 {
-_putchar('+, ', n);
-return (1);
+_putchar(mas);
+_putchar(coma);
+_putchar(espacio);
+_putchar(49);
 }
 else if (n < 0)
 {
-_putchar('-, ', n);
-return (-1);
+_putchar(menos);
+_putchar(coma);
+_putchar(espacio);
+_putchar(47);
 }
 else
 {
-_putchar('0, ', n)
-return (0);
+_putchar('0');
+_putchar(coma);
+_putchar(espacio);
+_putchar(n);
 }
+return (0);
 }

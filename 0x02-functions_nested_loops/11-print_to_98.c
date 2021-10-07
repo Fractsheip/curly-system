@@ -14,7 +14,9 @@ int n = d;
 
 while (d < 98)
 {
-_putchar(d)
+_putchar(d);
+_putchar(',');
+_putchar(' ');
 d++;
 }
 }

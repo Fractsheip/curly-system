@@ -14,9 +14,9 @@ int dup2 = 0;
 int espacio = 32;
 int coma = 44;
 
-while(a <= 9)
+while(dup1 <= 9)
 {
-while(b <= 9)
+while(dup2 <= 9)
 {
 int result = dup1 * dup2;
 _putchar(result);

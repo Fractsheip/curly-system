@@ -22,7 +22,7 @@ while ( d > 98)
 printf("%d, ", d);
 d--;
 }
-while (d == 98)
+if (d == 98)
 {
 printf("%d\n", d);
 }

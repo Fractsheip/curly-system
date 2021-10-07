@@ -14,20 +14,16 @@ int d = n;
 
 if (d < 98)
 {
-return(d);
-_putchar(',');
-_putchar(' ');
+printf('%d, ', d);
 d++;
 }
 else if ( d > 98)
 {
-return(d);
-_putchar(',');
-_putchar(' ');
+printf('%d, ', d);
 d--;
 }
 else if (d == 98)
 {
-return(d);
+printf('%d', d);
 }
 }

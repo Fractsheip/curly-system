@@ -2,29 +2,42 @@
 #include "main.h"
 
 /**
-* times_table - print the table of 9
+* print_number - print the table of 9
 * main.h - _putchar execute the putchar no use putchar
 * Return:the function all return 0
 */
 
+void print_number(int number1, int number2)
+{
+int ten = number1 / 10, unit = number1 % 10;
+
+if (ten == 0 && number2 != 0)
+_putchar(' ');
+else if (ten != 0)
+_putchar(ten + 48);
+_putchar(unit + 48);
+}
+
+/**
+* times_table - Print the table of 9
+*/
+
 void times_table(void)
 {
-int dup1 = 0;
-int dup2 = 0;
-int espacio = 32;
-int coma = 44;
+int row, column, result;
 
-while(dup1 <= 9)
+for (row = 0; row < 10; row++)
 {
-while(dup2 <= 9)
+for (column = 0; column < 10; column++)
 {
-int result = dup1 * dup2;
-return ((dup1 * dup2))
-_putchar(espacio);
-_putchar(coma);
-dup2++;
+result = row * column;
+print_number(result, column);
+if (9 != column)
+{
+_putchar(',');
+_putchar(' ');
+}
 }
 _putchar('\n');
-dup1++;
 }
 }

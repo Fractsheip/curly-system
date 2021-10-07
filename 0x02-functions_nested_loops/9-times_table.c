@@ -9,8 +9,8 @@
 
 void times_table(void)
 {
-int a = 0;
-int b = 0;
+int dup1 = 0;
+int dup2 = 0;
 int espacio = 32;
 int coma = 44;
 
@@ -18,7 +18,7 @@ while(a <= 9)
 {
 while(b <= 9)
 {
-result = a * b;
+int result = dup1 * dup2;
 _putchar(result);
 _putchar(espacio);
 _putchar(coma);

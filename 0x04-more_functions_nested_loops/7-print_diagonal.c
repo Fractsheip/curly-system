@@ -7,15 +7,30 @@
 * return: 0
 */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
-int n;
-int underscore = 95;
+int i = 0, j = 0;
+int space = 32;
+int backslash = 92;
 
+if (n > 0)
+{
 while (n > 0)
 {
-_putchar(underscore);
-n--;
+i = j;
+while (i > 0)
+{
+_putchar(space);
+i--;
 }
+_putchar(backslash);
 _putchar('\n');
+n--;
+j++;
+}
+}
+else
+{
+_putchar('\n');
+}
 }

@@ -26,4 +26,5 @@ else if (d == 98)
 {
 printf("%d", d);
 }
+_putchar('\n');
 }

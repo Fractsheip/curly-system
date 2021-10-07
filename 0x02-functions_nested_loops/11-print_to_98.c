@@ -12,17 +12,17 @@ void print_to_98(int n)
 {
 int d = n;
 
-if (d < 98)
+while (d < 98)
 {
 printf("%d, ", d);
 d++;
 }
-else if ( d > 98)
+while ( d > 98)
 {
 printf("%d, ", d);
 d--;
 }
-else if (d == 98)
+while (d == 98)
 {
 printf("%d\n", d);
 }

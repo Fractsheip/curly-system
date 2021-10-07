@@ -10,7 +10,7 @@
 
 void print_to_98(int n)
 {
-int n = d;
+int d = n;
 
 while (d < 98)
 {

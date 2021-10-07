@@ -22,9 +22,9 @@ int result = dup1 * dup2;
 _putchar(result);
 _putchar(espacio);
 _putchar(coma);
-b++;
+dup2++;
 }
 _putchar('\n');
-a++;
+dup1;
 }
 }

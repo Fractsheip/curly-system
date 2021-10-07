@@ -3,6 +3,8 @@
 
 /**
 * print_number - print the table of 9
+* @number1: here var do ten number
+* @number2: here var imput the last number
 * main.h - _putchar execute the putchar no use putchar
 * Return:the function all return 0
 */
@@ -32,7 +34,7 @@ for (column = 0; column < 10; column++)
 {
 result = row * column;
 print_number(result, column);
-if (9 != column)
+if (column != 9)
 {
 _putchar(',');
 _putchar(' ');

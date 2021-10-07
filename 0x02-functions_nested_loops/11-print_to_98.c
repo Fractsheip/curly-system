@@ -17,7 +17,7 @@ while (d < 98)
 printf("%d, ", d);
 d++;
 }
-while ( d > 98)
+while (d > 98)
 {
 printf("%d, ", d);
 d--;

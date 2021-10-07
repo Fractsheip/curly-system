@@ -25,6 +25,6 @@ _putchar(coma);
 dup2++;
 }
 _putchar('\n');
-dup1;
+dup1++;
 }
 }

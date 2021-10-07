@@ -6,6 +6,7 @@
 * @size: tell the size and large
 * @large: define the large of rectangle
 * @fijo: save the start value of size
+* return: the result
 */
 
 void print_square(int size)

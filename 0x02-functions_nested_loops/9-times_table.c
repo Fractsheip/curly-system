@@ -18,7 +18,7 @@ while(a <= 9)
 {
 while(b <= 9)
 {
-int result = a * b;
+result = a * b;
 _putchar(result);
 _putchar(espacio);
 _putchar(coma);

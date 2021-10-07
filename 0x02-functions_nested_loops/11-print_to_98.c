@@ -12,11 +12,22 @@ void print_to_98(int n)
 {
 int d = n;
 
-while (d < 98)
+if (d < 98)
 {
 _putchar(d);
 _putchar(',');
 _putchar(' ');
 d++;
+}
+else if ( d > 98)
+{
+_putchar(d);
+_putchar(',');
+_putchar(' ');
+d--;
+}
+else if (d == 98)
+{
+_putchar(d);
 }
 }

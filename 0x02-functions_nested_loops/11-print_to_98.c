@@ -10,11 +10,11 @@
 
 void print_to_98(int n)
 {
-int n;
+int n = d;
 
-while (n < 98)
+while (d < 98)
 {
-_putchar(n)
-n++;
+_putchar(d)
+d++;
 }
 }

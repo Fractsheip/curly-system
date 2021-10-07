@@ -4,7 +4,7 @@
 /**
 * _isupper - return if c is upercase or otherwise
 * @c: var define to evaluate
-* retunr: if are upercase return 1, else is otherwise return 0
+* return: if are upercase return 1, else is otherwise return 0
 */
 
 int _isupper(int c)

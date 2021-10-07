@@ -19,7 +19,7 @@ while(dup1 <= 9)
 while(dup2 <= 9)
 {
 int result = dup1 * dup2;
-_putchar(result);
+return ((dup1 * dup2))
 _putchar(espacio);
 _putchar(coma);
 dup2++;

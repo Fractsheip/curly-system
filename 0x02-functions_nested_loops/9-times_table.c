@@ -9,7 +9,8 @@
 
 void times_table(void)
 {
-int a = 0, b;
+int a = 0;
+int b;
 int espacio = 32;
 int coma = 44;
 

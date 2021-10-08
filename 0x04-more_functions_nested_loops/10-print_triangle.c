@@ -3,8 +3,7 @@
 
 /**
 * print_triangle - print a triange whit size define number of a and b
-* @a: var define the large
-* @b: var define the character
+* @size: define the large and tall
 */
 
 void print_triangle(int size)

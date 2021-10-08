@@ -14,9 +14,6 @@ while (i < 10)
 {
 _putchar(i);
 i++;
-if (i == 10)
-{
+}
 _putchar('\n');
-}
-}
 }

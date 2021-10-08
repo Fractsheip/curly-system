@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
-* main - 
-*
-*
+* main - print the function when you call main
+* Retun: None
 */
 
 int main()
@@ -33,4 +32,6 @@ printf("%d ", a);
 a++;   
 }
 }
+printf("\n");
+return (0);
 }

@@ -16,7 +16,11 @@ int large = 0;
 
 while (large <= 14)
 {
-_putchar(large + '0');
+if (large >= 10)
+{
+_putchar((large / 10) + '0');
+}
+_putchar((large % 10)+ '0');
 large++;
 }
 _putchar('\n');

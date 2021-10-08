@@ -7,39 +7,38 @@
 
 int main(void)
 {
-int a = 1;
+	int a = 1;
 
-while (a <= 100)
-{
-while (a % 5 == 0 && a % 3 == 0)
-{
-printf("FizzBuzz ");
-a++;
-}
-while (a % 3 == 0)
-{
-printf("Fizz ");
-a++;
-}
-while (a % 5 == 0)
-{
-if (a == 100)
-{
-printf("Buzz");
-a++;
-}
-else
-{
-printf("Buzz ");
-a++;
-}
-}
-if (a < 100)
-{
-printf("%d ", a);
-a++;
-}
-}
-printf("\n");
-return (0);
+	while (a <= 100)
+	{
+		while (a % 5 == 0 && a % 3 == 0)
+		{
+			printf("FizzBuzz ");
+			a++;
+		}
+		while (a % 3 == 0)
+		{
+			printf("Fizz ");
+			a++;
+		}
+		while (a % 5 == 0)
+		{
+			if (a == 100)
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
+			a++;
+		}
+		if (a < 100 && a % 3 != 0 && a % 5 != 0)
+		{
+			printf("%d ", a);
+			a++;
+		}
+	}
+	printf("\n");
+	return (0);
 }

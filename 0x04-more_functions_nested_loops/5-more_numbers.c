@@ -20,7 +20,7 @@ if (large >= 10)
 {
 _putchar((large / 10) + '0');
 }
-_putchar((large % 10)+ '0');
+_putchar((large % 10) + '0');
 large++;
 }
 _putchar('\n');

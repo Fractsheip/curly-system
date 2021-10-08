@@ -11,7 +11,7 @@ int a = 1;
 
 while (a <= 100)
 {
-while (a % 10 == 0)
+while (a % 5 == 0 && a % 3 == 0)
 {
 printf("FizzBuzz ");
 a++;

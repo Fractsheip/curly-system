@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* print_line - return multiplies var one and var two
+* print_diagonal - return multiplies var one and var two
 * @n: var define the large of the line
 * return: 0
 */

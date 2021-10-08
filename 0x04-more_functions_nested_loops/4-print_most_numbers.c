@@ -3,7 +3,7 @@
 
 /**
 * print_most_numbers - return multiplies var one and var two no 2 and 4
-* return: return the multiplies
+* Return:return the multiplies
 */
 
 void print_most_numbers(void)

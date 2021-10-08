@@ -23,8 +23,16 @@ a++;
 }
 while (a % 5 == 0)
 {
+if (a == 100)
+{
+printf("Buzz");
+a++;
+}
+else
+{
 printf("Buzz ");
 a++;
+}
 }
 if (a < 100)
 {

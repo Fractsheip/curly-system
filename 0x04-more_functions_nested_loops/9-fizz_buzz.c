@@ -2,10 +2,10 @@
 
 /**
 * main - print the function when you call main
-* Retun: None
+* Return: None
 */
 
-int main()
+int main(void)
 {
 int a = 1;
 
@@ -29,7 +29,7 @@ a++;
 if (a < 100)
 {
 printf("%d ", a);
-a++;   
+a++;
 }
 }
 printf("\n");

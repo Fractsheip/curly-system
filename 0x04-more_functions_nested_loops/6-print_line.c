@@ -9,7 +9,6 @@
 
 void print_line(int n)
 {
-int n;
 int underscore = 95;
 
 while (n > 0)

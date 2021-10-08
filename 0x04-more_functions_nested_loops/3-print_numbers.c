@@ -3,13 +3,11 @@
 
 /**
 * print_numbers - print numbers from 0 - 9 with putchar
-* return: return the multiplies
+* Return:return the multiplies
 */
 
 void print_numbers(void)
 {
-int i;
-
 for (i = 0; i <= 9; i++)
 {
 _putchar(i + '0');

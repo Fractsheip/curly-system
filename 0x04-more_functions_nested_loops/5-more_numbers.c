@@ -9,18 +9,17 @@
 void more_numbers(void)
 {
 int s = 0;
-int i;
 
 while (s < 10)
 {
-int i = 0;
+int large = 0;
 
-while (i <= 14)
+while (large <= 14)
 {
-_putchar(i + '0');
-i++;
+_putchar(large + '0');
+large++;
 }
-_putchar("\n");
+_putchar('\n');
 s++;
 }
 }

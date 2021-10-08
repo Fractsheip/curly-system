@@ -2,9 +2,7 @@
 #include "main.h"
 
 /**
-* mul - return multiplies var one and var two
-* @a: var one
-* @b: var two
+* print_most_numbers - return multiplies var one and var two no 2 and 4
 * return: return the multiplies
 */
 
@@ -20,4 +18,5 @@ _putchar(i);
 }
 i++;
 _putchar('\n');
+}
 }

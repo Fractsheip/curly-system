@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
-*
-*
+* print_rev - return reverse characters int
+* @s: chararters int
+* Return: None
 */
 
 void print_rev(char *s)

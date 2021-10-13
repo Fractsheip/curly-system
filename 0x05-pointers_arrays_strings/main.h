@@ -11,3 +11,5 @@ int _putchar(char c);
 void print_rev(char *s);
 
 char *_strcpy(char *dest, char *src);
+
+void rev_string(char *s);
